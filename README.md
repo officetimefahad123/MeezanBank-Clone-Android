@@ -4,7 +4,11 @@ An end-to-end UI/UX replica of the Meezan Bank Android application, built using 
 
 ## Screenshots
 
-<p align="center">
-  <img src="image1.jpeg" width="48%" />
-  <img src="image2.jpeg" width="48%" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="image1.jpeg" width="350" /></td>
+      <td><img src="image2.jpeg" width="350" /></td>
+    </tr>
+  </table>
+</div>
