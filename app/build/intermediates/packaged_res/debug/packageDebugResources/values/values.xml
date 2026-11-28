@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FDFDFD</color>
+    <color name="meezan_balance_bg">#F4F5F7</color>
+    <color name="meezan_bank_bg">#EFEFEF</color>
+    <color name="meezan_bank_card_bg">#F8F8FA</color>
+    <color name="meezan_bg_gray">#EDEDF2</color>
+    <color name="meezan_card_bg">#FFFFFF</color>
+    <color name="meezan_divider">#E0E0E0</color>
+    <color name="meezan_green">#218A39</color>
+    <color name="meezan_lavender_bg">#8B3C9B</color>
+    <color name="meezan_purple">#61116B</color>
+    <color name="meezan_purple_dark">#4A0C52</color>
+    <color name="meezan_purple_light">#7A1C86</color>
+    <color name="meezan_search_bg">#F5F5F7</color>
+    <color name="meezan_text_primary">#222222</color>
+    <color name="meezan_text_secondary">#4A4A4A</color>
+    <color name="meezan_tile_bg">#FFFFFF</color>
+    <color name="meezan_yellow_bg">#F8C81A</color>
+    <color name="meezan_yellow_text">#3B0A42</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Meezan</string>
+    <style name="Base.Theme.Meezan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/meezan_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/meezan_purple</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+    <style name="Theme.Meezan" parent="Base.Theme.Meezan"/>
+</resources>

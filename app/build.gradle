@@ -1,0 +1,42 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.clone.byfahad.meezan'
+    compileSdk 37
+
+    defaultConfig {
+        applicationId "com.clone.byfahad.meezan"
+        minSdk 29
+        targetSdk 37
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            optimization {
+                enable = true
+                packageScope = ["androidx.**", "kotlin.**", "kotlinx.**"] as Set
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'C:\\winsdk\\javafx-sdk-27.0.1.1\\lib', include: ['*.aar', '*.jar'], exclude: [])
+    implementation libs.activity.ktx
+    implementation libs.appcompat
+    implementation libs.constraintlayout
+    implementation libs.material
+    testImplementation libs.junit
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.ext.junit
+}
