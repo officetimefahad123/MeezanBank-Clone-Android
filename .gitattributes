@@ -1,2 +1,3 @@
-﻿*.html linguist-generated
-build/reports/** linguist-generated
+﻿@'
+*.html linguist-detectable=false
+'@ | Set-Content -Encoding utf8 .gitattributes
