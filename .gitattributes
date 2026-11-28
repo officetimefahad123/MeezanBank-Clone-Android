@@ -1,3 +1,4 @@
-﻿@'
-*.html linguist-detectable=false
-'@ | Set-Content -Encoding utf8 .gitattributes
+﻿*.html linguist-detectable=false
+**/*.html linguist-detectable=false
+*.htm linguist-detectable=false
+**/*.htm linguist-detectable=false
